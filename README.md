@@ -1,2 +1,1 @@
-# LabEsp-IDF
-# for learning
+# For learning
