@@ -1,0 +1,620 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15672
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (33) boot: ESP-IDF v5.2-dev-1128-g03d4fa2869 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time Aug 23 2023 08:35:03[0m
+[0;32mI (35) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v3.0[0m
+[0;32mI (43) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (73) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (80) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (88) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (95) boot: End of partition table[0m
+[0;32mI (99) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09c68h ( 40040) map[0m
+[0;32mI (122) esp_image: segment 1: paddr=00019c90 vaddr=3ffb0000 size=02148h (  8520) load[0m
+[0;32mI (126) esp_image: segment 2: paddr=0001bde0 vaddr=40080000 size=04238h ( 16952) load[0m
+[0;32mI (135) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14e64h ( 85604) map[0m
+[0;32mI (167) esp_image: segment 4: paddr=00034e8c vaddr=40084238 size=07f80h ( 32640) load[0m
+[0;32mI (187) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (187) boot: Disabling RNG early entropy source...[0m
+[0;32mI (199) cpu_start: Multicore app[0m
+[0;32mI (199) cpu_start: Pro cpu up.[0m
+[0;32mI (199) cpu_start: Starting app cpu, entry point is 0x4008102c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) cpu_start: Application information:[0m
+[0;32mI (222) cpu_start: Project name:     lab05[0m
+[0;32mI (227) cpu_start: App version:      1[0m
+[0;32mI (231) cpu_start: Compile time:     Aug 23 2023 09:53:09[0m
+[0;32mI (237) cpu_start: ELF file SHA256:  218aa81fb...[0m
+[0;32mI (243) cpu_start: ESP-IDF:          v5.2-dev-1128-g03d4fa2869[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (264) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (277) heap_init: At 3FFB29B8 len 0002D648 (181 KiB): DRAM[0m
+[0;32mI (283) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (296) heap_init: At 4008C1B8 len 00013E48 (79 KiB): IRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (307) spi_flash: flash io: dio[0m
+[0;33mW (311) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (324) app_start: Starting scheduler on CPU0[0m
+[0;32mI (329) app_start: Starting scheduler on CPU1[0m
+[0;32mI (329) main_task: Started on CPU0[0m
+[0;32mI (339) main_task: Calling app_main()[0m
+[0;32mI (339) gpio: GPIO[18]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (349) gpio: GPIO[19]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (359) gpio: GPIO[16]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (369) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (379) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+cnt: 0
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 1
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 2
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 3
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 4
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 5
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 6
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 7
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 8
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 9
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 10
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 11
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 12
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 13
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 14
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 15
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 16
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 17
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 18
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 19
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 20
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 21
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 22
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 23
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 24
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 25
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 26
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 27
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 28
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 29
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 30
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 31
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 32
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 33
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 34
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 35
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 36
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 37
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 38
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 39
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 40
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 41
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 42
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 43
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 44
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 45
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 46
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 47
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 48
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 49
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 50
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 51
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 52
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 53
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 54
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 55
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 56
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 57
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 58
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 59
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 60
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 61
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 62
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 63
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 64
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 65
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 66
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 67
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 68
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 69
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 70
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 71
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 72
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 73
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 74
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 75
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 76
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 77
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 78
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 79
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 80
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 81
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 82
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 83
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 84
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 85
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 86
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 87
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 88
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 89
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 90
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 91
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 92
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 93
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 94
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 95
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 96
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 97
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 98
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 99
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 100
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 101
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 102
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 103
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 104
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 105
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 106
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 107
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 108
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 109
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 110
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 111
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 112
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 113
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 114
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 115
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 116
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 117
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 118
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 119
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 120
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 121
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 122
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 123
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 124
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 125
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 126
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 127
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 128
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 129
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 130
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 131
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 132
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 133
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 134
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 135
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 136
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 137
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 138
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 139
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 140
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 141
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 142
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 143
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 0
+cnt: 144
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 0
+cnt: 145
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 146
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 147
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 0
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 148
+GPIO[5] intr, val: 0
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 149
+GPIO[16] poll, val: 0
+GPIO[17] poll, val: 1
+cnt: 150
+GPIO[16] poll, val: 0
+GPIO[17] poll, val: 1
+cnt: 151
+GPIO[16] poll, val: 0
+GPIO[17] poll, val: 0
+cnt: 152
+GPIO[5] intr, val: 0
+GPIO[16] poll, val: 0
+GPIO[17] poll, val: 0
+cnt: 153
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 1
+GPIO[16] poll, val: 0
+GPIO[17] poll, val: 0
+cnt: 154
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 0
+GPIO[5] intr, val: 1
+GPIO[5] intr, val: 0
+GPIO[16] poll, val: 0
+GPIO[17] poll, val: 0
+cnt: 155
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 156
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 157
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 158
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 159
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 160
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 161
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 162
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 163
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 164
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 165
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 166
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 167
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 168
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 169
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 170
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 171
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 172
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 173
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 174
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 175
+GPIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 176
+PIO[16] poll, val: 1
+GPIO[17] poll, val: 1
+cnt: 177

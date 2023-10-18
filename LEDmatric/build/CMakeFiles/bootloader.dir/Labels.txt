@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/data/LEDmatric/build/CMakeFiles/bootloader
+/data/LEDmatric/build/CMakeFiles/bootloader.rule
+/data/LEDmatric/build/CMakeFiles/bootloader-complete.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/data/LEDmatric/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

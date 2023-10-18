@@ -1,0 +1,28 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081020: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6b07: task_wdt_timeout_handling at /opt/esp/idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d6c8e: task_wdt_isr at /opt/esp/idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082ef5: _xt_lowint1 at /opt/esp/idf/components/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d51b3: gpio_ll_get_level at /opt/esp/idf/components/hal/esp32/include/hal/gpio_ll.h:481
+ (inlined by) gpio_get_level at /opt/esp/idf/components/driver/gpio/gpio.c:243
+[0m
+[0;33m0x400d5126: taskConsumer at /data/lab09END/main/lab09END.c:40
+[0m
+[0;33m0x40087c71: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40084286: esp_crosscore_isr at /opt/esp/idf/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40082ef5: _xt_lowint1 at /opt/esp/idf/components/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d5126: taskConsumer at /data/lab09END/main/lab09END.c:40
+[0m
+[0;33m0x40087c71: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

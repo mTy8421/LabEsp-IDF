@@ -1,0 +1,22 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /data/HttpPost/build/bootloader/esp-idf/esptool_py && /opt/esp/python_env/idf5.2_py3.8_env/bin/python /opt/esp/idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /data/HttpPost/build/bootloader/bootloader.bin
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/HttpPost.c.obj
+/data/HttpPost/main/HttpPost.c: In function 'post_rest_function':
+/data/HttpPost/main/HttpPost.c:86:20: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   86 |         *post_data = "{\"name\": \"1\", \"data\":\"1\"}";
+      |                    ^
+/data/HttpPost/main/HttpPost.c:88:20: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   88 |         *post_data = "{\"name\": \"0\", \"data\":\"0\"}";
+      |                    ^
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable HttpPost.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /data/HttpPost/build/HttpPost.bin
+[7/7] cd /data/HttpPost/build/esp-idf/esptool_py && /opt/esp/python_env/idf5.2_py3.8_env/bin/python /opt/esp/idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /data/HttpPost/build/partition_table/partition-table.bin /data/HttpPost/build/HttpPost.bin
+HttpPost.bin binary size 0xd50f0 bytes. Smallest app partition is 0x100000 bytes. 0x2af10 bytes (17%) free.

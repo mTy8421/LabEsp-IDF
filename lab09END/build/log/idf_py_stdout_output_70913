@@ -1,0 +1,21 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/lab09END.c.obj
+/data/lab09END/main/lab09END.c:13:1: warning: parameter names (without types) in function declaration
+   13 | int gpio_set_direction(BUTTON, GPIO_MODE_INPUT);
+      | ^~~
+/data/lab09END/main/lab09END.c:14:1: warning: parameter names (without types) in function declaration
+   14 | int gpio_set_level(BUTTON, LOW);
+      | ^~~
+[2/9] Linking C static library esp-idf/main/libmain.a
+[3/9] Performing build step for 'bootloader'
+[1/1] cd /data/lab09END/build/bootloader/esp-idf/esptool_py && /opt/esp/python_env/idf5.2_py3.8_env/bin/python /opt/esp/idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /data/lab09END/build/bootloader/bootloader.bin
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable lab09END.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /data/lab09END/build/lab09END.bin
+[7/7] cd /data/lab09END/build/esp-idf/esptool_py && /opt/esp/python_env/idf5.2_py3.8_env/bin/python /opt/esp/idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /data/lab09END/build/partition_table/partition-table.bin /data/lab09END/build/lab09END.bin
+lab09END.bin binary size 0x2a9e0 bytes. Smallest app partition is 0x100000 bytes. 0xd5620 bytes (83%) free.

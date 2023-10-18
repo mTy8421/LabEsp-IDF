@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/data/lab09n3/build/CMakeFiles/bootloader
+/data/lab09n3/build/CMakeFiles/bootloader.rule
+/data/lab09n3/build/CMakeFiles/bootloader-complete.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/data/lab09n3/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

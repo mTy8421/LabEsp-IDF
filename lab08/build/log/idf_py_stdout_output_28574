@@ -1,0 +1,195 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15672
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (33) boot: ESP-IDF v5.2-dev-1128-g03d4fa2869 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time Sep  6 2023 07:22:09[0m
+[0;32mI (35) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v3.0[0m
+[0;32mI (43) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (73) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (80) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (88) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (95) boot: End of partition table[0m
+[0;32mI (99) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09938h ( 39224) map[0m
+[0;32mI (122) esp_image: segment 1: paddr=00019960 vaddr=3ffb0000 size=020f0h (  8432) load[0m
+[0;32mI (126) esp_image: segment 2: paddr=0001ba58 vaddr=40080000 size=045c0h ( 17856) load[0m
+[0;32mI (135) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14c3ch ( 85052) map[0m
+[0;32mI (167) esp_image: segment 4: paddr=00034c64 vaddr=400845c0 size=07824h ( 30756) load[0m
+[0;32mI (186) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (186) boot: Disabling RNG early entropy source...[0m
+[0;32mI (198) cpu_start: Multicore app[0m
+[0;32mI (198) cpu_start: Pro cpu up.[0m
+[0;32mI (198) cpu_start: Starting app cpu, entry point is 0x40081018[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (216) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) cpu_start: Application information:[0m
+[0;32mI (221) cpu_start: Project name:     lab08[0m
+[0;32mI (225) cpu_start: App version:      1[0m
+[0;32mI (230) cpu_start: Compile time:     Sep  6 2023 07:34:55[0m
+[0;32mI (236) cpu_start: ELF file SHA256:  354f7537b...[0m
+[0;32mI (241) cpu_start: ESP-IDF:          v5.2-dev-1128-g03d4fa2869[0m
+[0;32mI (248) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (253) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (257) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (262) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (269) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (275) heap_init: At 3FFB29C8 len 0002D638 (181 KiB): DRAM[0m
+[0;32mI (282) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (288) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (294) heap_init: At 4008BDE4 len 0001421C (80 KiB): IRAM[0m
+[0;32mI (302) spi_flash: detected chip: generic[0m
+[0;32mI (305) spi_flash: flash io: dio[0m
+[0;33mW (309) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (323) app_start: Starting scheduler on CPU0[0m
+[0;32mI (327) app_start: Starting scheduler on CPU1[0m
+[0;32mI (327) main_task: Started on CPU0[0m
+[0;32mI (337) main_task: Calling app_main()[0m
+[0;32mI (337) ADC: ADC1 Channel[4] Raw Data: 333[0m
+[0;32mI (1337) ADC: ADC1 Channel[5] Raw Data: 3571[0m
+[0;32mI (2337) ADC: ADC1 Channel[4] Raw Data: 1088[0m
+[0;32mI (3337) ADC: ADC1 Channel[5] Raw Data: 3580[0m
+[0;32mI (4337) ADC: ADC1 Channel[4] Raw Data: 1157[0m
+[0;32mI (5337) ADC: ADC1 Channel[5] Raw Data: 3775[0m
+[0;32mI (6337) ADC: ADC1 Channel[4] Raw Data: 1279[0m
+[0;32mI (7337) ADC: ADC1 Channel[5] Raw Data: 4095[0m
+[0;32mI (8337) ADC: ADC1 Channel[4] Raw Data: 1529[0m
+[0;32mI (9337) ADC: ADC1 Channel[5] Raw Data: 4095[0m
+[0;32mI (10337) ADC: ADC1 Channel[4] Raw Data: 1203[0m
+[0;32mI (11337) ADC: ADC1 Channel[5] Raw Data: 2572[0m
+[0;32mI (12337) ADC: ADC1 Channel[4] Raw Data: 988[0m
+[0;32mI (13337) ADC: ADC1 Channel[5] Raw Data: 1629[0m
+[0;32mI (14337) ADC: ADC1 Channel[4] Raw Data: 1031[0m
+[0;32mI (15337) ADC: ADC1 Channel[5] Raw Data: 410[0m
+[0;32mI (16337) ADC: ADC1 Channel[4] Raw Data: 832[0m
+[0;32mI (17337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (18337) ADC: ADC1 Channel[4] Raw Data: 717[0m
+[0;32mI (19337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (20337) ADC: ADC1 Channel[4] Raw Data: 589[0m
+[0;32mI (21337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (22337) ADC: ADC1 Channel[4] Raw Data: 561[0m
+[0;32mI (23337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (24337) ADC: ADC1 Channel[4] Raw Data: 486[0m
+[0;32mI (25337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (26337) ADC: ADC1 Channel[4] Raw Data: 454[0m
+[0;32mI (27337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (28337) ADC: ADC1 Channel[4] Raw Data: 410[0m
+[0;32mI (29337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (30337) ADC: ADC1 Channel[4] Raw Data: 381[0m
+[0;32mI (31337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (32337) ADC: ADC1 Channel[4] Raw Data: 355[0m
+[0;32mI (33337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (34337) ADC: ADC1 Channel[4] Raw Data: 341[0m
+[0;32mI (35337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (36337) ADC: ADC1 Channel[4] Raw Data: 338[0m
+[0;32mI (37337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (38337) ADC: ADC1 Channel[4] Raw Data: 336[0m
+[0;32mI (39337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (40337) ADC: ADC1 Channel[4] Raw Data: 357[0m
+[0;32mI (41337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (42337) ADC: ADC1 Channel[4] Raw Data: 254[0m
+[0;32mI (43337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (44337) ADC: ADC1 Channel[4] Raw Data: 234[0m
+[0;32mI (45337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (46337) ADC: ADC1 Channel[4] Raw Data: 339[0m
+[0;32mI (47337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (48337) ADC: ADC1 Channel[4] Raw Data: 345[0m
+[0;32mI (49337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (50337) ADC: ADC1 Channel[4] Raw Data: 339[0m
+[0;32mI (51337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (52337) ADC: ADC1 Channel[4] Raw Data: 343[0m
+[0;32mI (53337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (54337) ADC: ADC1 Channel[4] Raw Data: 357[0m
+[0;32mI (55337) ADC: ADC1 Channel[5] Raw Data: 85[0m
+[0;32mI (56337) ADC: ADC1 Channel[4] Raw Data: 348[0m
+[0;32mI (57337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (58337) ADC: ADC1 Channel[4] Raw Data: 331[0m
+[0;32mI (59337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (60337) ADC: ADC1 Channel[4] Raw Data: 354[0m
+[0;32mI (61337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (62337) ADC: ADC1 Channel[4] Raw Data: 365[0m
+[0;32mI (63337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (64337) ADC: ADC1 Channel[4] Raw Data: 379[0m
+[0;32mI (65337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (66337) ADC: ADC1 Channel[4] Raw Data: 373[0m
+[0;32mI (67337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (68337) ADC: ADC1 Channel[4] Raw Data: 373[0m
+[0;32mI (69337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (70337) ADC: ADC1 Channel[4] Raw Data: 370[0m
+[0;32mI (71337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (72337) ADC: ADC1 Channel[4] Raw Data: 354[0m
+[0;32mI (73337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (74337) ADC: ADC1 Channel[4] Raw Data: 307[0m
+[0;32mI (75337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (76337) ADC: ADC1 Channel[4] Raw Data: 336[0m
+[0;32mI (77337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (78337) ADC: ADC1 Channel[4] Raw Data: 336[0m
+[0;32mI (79337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (80337) ADC: ADC1 Channel[4] Raw Data: 367[0m
+[0;32mI (81337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (82337) ADC: ADC1 Channel[4] Raw Data: 452[0m
+[0;32mI (83337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (84337) ADC: ADC1 Channel[4] Raw Data: 569[0m
+[0;32mI (85337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (86337) ADC: ADC1 Channel[4] Raw Data: 750[0m
+[0;32mI (87337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (88337) ADC: ADC1 Channel[4] Raw Data: 880[0m
+[0;32mI (89337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (90337) ADC: ADC1 Channel[4] Raw Data: 976[0m
+[0;32mI (91337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (92337) ADC: ADC1 Channel[4] Raw Data: 1037[0m
+[0;32mI (93337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (94337) ADC: ADC1 Channel[4] Raw Data: 1066[0m
+[0;32mI (95337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (96337) ADC: ADC1 Channel[4] Raw Data: 1034[0m
+[0;32mI (97337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (98337) ADC: ADC1 Channel[4] Raw Data: 919[0m
+[0;32mI (99337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (100337) ADC: ADC1 Channel[4] Raw Data: 768[0m
+[0;32mI (101337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (102337) ADC: ADC1 Channel[4] Raw Data: 560[0m
+[0;32mI (103337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (104337) ADC: ADC1 Channel[4] Raw Data: 400[0m
+[0;32mI (105337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (106337) ADC: ADC1 Channel[4] Raw Data: 333[0m
+[0;32mI (107337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (108337) ADC: ADC1 Channel[4] Raw Data: 332[0m
+[0;32mI (109337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (110337) ADC: ADC1 Channel[4] Raw Data: 462[0m
+[0;32mI (111337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (112337) ADC: ADC1 Channel[4] Raw Data: 715[0m
+[0;32mI (113337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (114337) ADC: ADC1 Channel[4] Raw Data: 925[0m
+[0;32mI (115337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (116337) ADC: ADC1 Channel[4] Raw Data: 1022[0m
+[0;32mI (117337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (118337) ADC: ADC1 Channel[4] Raw Data: 1055[0m
+[0;32mI (119337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (120337) ADC: ADC1 Channel[4] Raw Data: 1046[0m
+[0;32mI (121337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (122337) ADC: ADC1 Channel[4] Raw Data: 1055[0m
+[0;32mI (123337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (124337) ADC: ADC1 Channel[4] Raw Data: 973[0m
+[0;32mI (125337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (126337) ADC: ADC1 Channel[4] Raw Data: 3370[0m
+[0;32mI (127337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (128337) ADC: ADC1 Channel[4] Raw Data: 3295[0m
+[0;32mI (129337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (130337) ADC: ADC1 Channel[4] Raw Data: 2267[0m
+[0;32mI (131337) ADC: ADC1 Channel[5] Raw Data: 0[0m
+[0;32mI (132337) ADC: ADC1 Channel[4] Raw Data: 1600[0m

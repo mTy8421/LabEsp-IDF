@@ -1,0 +1,107 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d632f: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x401605d8: http_on_chunk_header at /opt/esp/idf/components/esp_http_client/esp_http_client.c:329
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d632c: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x400d6495: app_main at /data/HttpPost/main/HttpPost.c:109 (discriminator 1)
+[0m
+[0;33m0x40165aeb: main_task at /opt/esp/idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d632f: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x401605d8: http_on_chunk_header at /opt/esp/idf/components/esp_http_client/esp_http_client.c:329
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d632c: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x400d6495: app_main at /data/HttpPost/main/HttpPost.c:109 (discriminator 1)
+[0m
+[0;33m0x40165aeb: main_task at /opt/esp/idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d632f: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x401605d8: http_on_chunk_header at /opt/esp/idf/components/esp_http_client/esp_http_client.c:329
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d632c: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x400d6495: app_main at /data/HttpPost/main/HttpPost.c:109 (discriminator 1)
+[0m
+[0;33m0x40165aeb: main_task at /opt/esp/idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d632f: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x401605d8: http_on_chunk_header at /opt/esp/idf/components/esp_http_client/esp_http_client.c:329
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d632c: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x400d6495: app_main at /data/HttpPost/main/HttpPost.c:109 (discriminator 1)
+[0m
+[0;33m0x40165aeb: main_task at /opt/esp/idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d632f: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x401605d8: http_on_chunk_header at /opt/esp/idf/components/esp_http_client/esp_http_client.c:329
+[0m
+[0;33m0x400014fd: strlen in ROM
+[0m
+[0;33m0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d632c: post_rest_function at /data/HttpPost/main/HttpPost.c:86
+[0m
+[0;33m0x400d6495: app_main at /data/HttpPost/main/HttpPost.c:109 (discriminator 1)
+[0m
+[0;33m0x40165aeb: main_task at /opt/esp/idf/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at /opt/esp/idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811c4: call_start_cpu1 at /opt/esp/idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

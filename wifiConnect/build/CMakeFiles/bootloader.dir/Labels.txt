@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/data/wifiConnect/build/CMakeFiles/bootloader
+/data/wifiConnect/build/CMakeFiles/bootloader.rule
+/data/wifiConnect/build/CMakeFiles/bootloader-complete.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/data/wifiConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
