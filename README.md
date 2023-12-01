@@ -4,4 +4,4 @@
 >
 >ทั้งหมดนี้เป็นแค่ตัวอย่างเท่านั้น
 ---
-*สามารถดู Assignment ได้ผ่าน floder fileLab
+* สามารถดู Assignment ได้ผ่าน floder fileLab
