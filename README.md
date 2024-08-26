@@ -19,8 +19,9 @@ Micro Controllers ESP32 ใน Project นี้จะใช้งาน [espres
 ![enter image description here](https://circuitstate.com/wp-content/uploads/2022/12/ESP32-DevKit-V1-Pinout-Diagram-r0.1-CIRCUITSTATE-Electronics-2.png)
 
 ## Project ตัวอย่าง
-Project ตัวอย่างสามารถ Download ได้ดังนี้
+Project ตัวอย่างสามารถ [Download](https://github.com/mTy8421/LabEsp-IDF/archive/refs/heads/main.zip) ได้ดังนี้
 ```git
 git clone https://github.com/mTy8421/LabEsp-IDF.git
 ```
 > ทั้งหมดนี้เป็นแค่ตัวอย่างเท่านั้น
+
