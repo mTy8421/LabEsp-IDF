@@ -11,7 +11,7 @@
 ## Visual Studio Code Config
 สำหรับการตั้งค่า Visual Studio Code ใน ESP32 สามารถทำได้ด้วย [วีดีโอนี้](https://www.youtube.com/watch?v=5IuZ-E8Tmhg)
 
-## เนื่อหา ESP32-IDF
+## เนื้อหา ESP32-IDF
 
 Micro Controllers ESP32 ใน Project นี้จะใช้งาน [espressif](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/) ในการจัดการทำงานขอบอร์ด ESP32
 
